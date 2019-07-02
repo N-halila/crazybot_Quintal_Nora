@@ -2,14 +2,15 @@
 WorldInfo {
 }
 Viewpoint {
-  orientation 0.0007273031753773653 0.9975507364160136 0.06994282883870098 3.162338048356729
-  position -0.12734651072650527 0.20344772778221118 -0.6108767415655783
+  orientation -0.051902404948231826 0.9414839848207095 0.33303760551431394 2.850219682602652
+  position 0.13447336347730343 2.6709402463627288 -3.128344050793731
 }
 TexturedBackground {
 }
 TexturedBackgroundLight {
 }
 Floor {
+  size 20 20
 }
 Robot {
   translation 0 0.075 0
@@ -51,8 +52,8 @@ Robot {
       device [
         RotationalMotor {
           name "motor_right"
-          maxVelocity 523.5987
-          maxTorque 0.03
+          maxVelocity 52.4
+          maxTorque 0.5932
         }
       ]
       endPoint Solid {
@@ -84,8 +85,8 @@ Robot {
       device [
         RotationalMotor {
           name "motor_left"
-          maxVelocity 523.5987
-          maxTorque 0.03
+          maxVelocity 52.36
+          maxTorque 0.5932
         }
       ]
       endPoint Solid {
@@ -112,6 +113,12 @@ Robot {
           }
         }
       ]
+      lookupTable [
+        0 0 0
+        0.02 0 0
+        5 1660 0
+      ]
+      resolution 1
     }
   ]
   boundingObject USE SH_BODY
