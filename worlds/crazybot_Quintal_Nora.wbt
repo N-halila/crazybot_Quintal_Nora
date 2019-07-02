@@ -2,8 +2,8 @@
 WorldInfo {
 }
 Viewpoint {
-  orientation -0.051902404948231826 0.9414839848207095 0.33303760551431394 2.850219682602652
-  position 0.13447336347730343 2.6709402463627288 -3.128344050793731
+  orientation 0.9967986067953414 -0.0793783720902909 -0.009571391495580457 6.042421918760736
+  position -0.26619830660839705 0.24504735943123648 1.200499952498929
 }
 TexturedBackground {
 }
@@ -55,6 +55,10 @@ Robot {
           maxVelocity 52.4
           maxTorque 0.5932
         }
+        PositionSensor {
+          name "ps_right"
+          resolution 0.005235987
+        }
       ]
       endPoint Solid {
         translation 0.05 0 0.065
@@ -87,6 +91,10 @@ Robot {
           name "motor_left"
           maxVelocity 52.36
           maxTorque 0.5932
+        }
+        PositionSensor {
+          name "ps_left"
+          resolution 0.005235987
         }
       ]
       endPoint Solid {
