@@ -2,8 +2,8 @@
 WorldInfo {
 }
 Viewpoint {
-  orientation 0.9967986067953414 -0.0793783720902909 -0.009571391495580457 6.042421918760736
-  position -0.26619830660839705 0.24504735943123648 1.200499952498929
+  orientation -0.004315657076877484 0.9921884273971218 0.1246735723528492 3.0729291435485298
+  position -0.13134846452540974 0.20470419871593254 -1.1531247383824534
 }
 TexturedBackground {
 }
@@ -121,6 +121,7 @@ Robot {
           }
         }
       ]
+      name "ds"
       lookupTable [
         0 0 0
         0.02 0 0
@@ -131,5 +132,7 @@ Robot {
   ]
   boundingObject USE SH_BODY
   physics Physics {
+    mass 1
   }
+  controller "crazybot_Quintal_Nora"
 }
